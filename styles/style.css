@@ -3,7 +3,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 
 }
 .nav-title{
@@ -252,4 +252,13 @@ text-align: left;
 *{
     margin: 0px;
     padding: 0px;
+}
+footer input[type="text"] ,footer input[type="email"] ,footer textarea{
+    height: 44px;
+
+    border-radius: 5px;
+    background-color: aliceblue;
+    border: none;
+    width: 100%;
+    padding: 20px;
 }
